@@ -1,6 +1,28 @@
 /*sup dude*/
 body{
-	background-color:lavender;
+	background-color: ivory;
+}
+.tBleh{
+	background-color:#A278FF;
+	
+	
+}
+.pic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: darkblue;
+	border-style: ridge;
+	border-width: 4px;
+}
+.heh1{
+	text-align: center;
+	border-color: skyblue;
+	border-bottom: thin;
+	border-bottom-style:dashed;
+}
+.textind{
+	text-indent: 50px;
 }
 
 h1{
@@ -9,7 +31,7 @@ h1{
 }
 
 p{
-	"Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 ul{
