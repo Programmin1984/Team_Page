@@ -1,11 +1,11 @@
-//sup dude
+/*sup dude*/
 body{
-	background-color:lightblue;
+	background-color:lavender;
 }
 
 h1{
-	color:dark blue
-	margin:10px
+	color:dark blue;
+	margin:10px;
 }
 
 p{
@@ -38,4 +38,9 @@ a:hover {
 /* selected link */
 a:active {
     color: hotpink;
+	
+		
+	}
+td{
+		text-align:center;
 }
