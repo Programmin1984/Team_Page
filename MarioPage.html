@@ -1,24 +1,73 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
-		<title>Mario Townes Bio</title>
+		
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- Jquery stuff -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<!-- Team Bootstrap stuff -->
+		<link rel="stylesheet" type="text/css" href = "styles/bootstrap.css" />
+		
+		<!-- Team CSS -->
 		<link rel="stylesheet" type="text/css" href = "styles/teampage.css" />
-	</head>
-<body>
-	<h1>Meet Mario Townes</h1>
-	<img src="images/UmbrellaJello.jpg" alt="Mario Townes with an umbrella jello shot" style="width:100px;height:160px;">
-	<p>Mario Townes is a GIMM student at Boise State University.  His intrests include movies, food, and dancing.</p>
-	<p>Recently, Mario has been playing StarWars: Battlefront II, Super Mario Odyssey, and Kingdom Hearts:Union X.</p>
-	<p>Some of Mario's favorite foods are:</p>
-	<ul>
-		<li>Spaghetti</li>
-		<li>Ramen</li>
-		<li>Peach Cobbler</li>
-		<li>Chocolate Milkshakes</li>
-		<li>Pizza</li>
-	</ul>
-	<p>By the end of this class, Mario hopes to have better web design skills and a couple of apps developed.  He loves the idea of building apps.  Though lacking in creativity, he is more than willing to bring other ideas to market.</p>
+		
+		<title>Mario Townes Bio</title>
 	
-	<p><a href="index.html">Back to Main</a></p>
-</body>
+	</head>
+	
+	<body class="MarioPage">
+		
+		<div id="teamnav-placeholder"></div>
+		
+		<div class="row">
+			<div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+				<h1>Meet Mario Townes</h1>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+				<img src="images/UmbrellaJello.jpg" alt="Mario Townes with an umbrella jello shot" style="width:100px;height:160px;">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+				<p>Mario Townes is a GIMM student at Boise State University.  His intrests include movies, food, and dancing.</p>
+				<p>Recently, Mario has been playing StarWars: Battlefront II, Super Mario Odyssey, and Kingdom Hearts:Union X.</p>
+				<p>Some of Mario's favorite foods are:</p>
+				<ul>
+					<li>Spaghetti</li>
+					<li>Ramen</li>
+					<li>Peach Cobbler</li>
+					<li>Chocolate Milkshakes</li>
+					<li>Pizza</li>
+				</ul>
+
+				<p>By the end of this class, Mario hopes to have better web design skills and a couple of apps developed.  He loves the idea of building apps.  Though lacking in creativity, he is more than willing to bring other ideas to market.</p>
+			</div>
+		</div>
+		
+		<div class="teamfooter" id="teamfooter-placeholder"></div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#teamnav-placeholder').load('shared/nav.html');
+				$('#teamfooter-placeholder').load('shared/footer.html')
+			});
+			
+			
+		</script>
+
+	</body>
 </html>

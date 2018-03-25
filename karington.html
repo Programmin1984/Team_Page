@@ -1,15 +1,61 @@
-<html>
-<head>
-<title>karington watkins Bio</title>
+<!doctype html>
+<html lang="en">
+	<head>
+		
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- Jquery stuff -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<!-- Team Bootstrap stuff -->
+		<link rel="stylesheet" type="text/css" href = "styles/bootstrap.css" />
+		
+		<!-- Team CSS -->
 		<link rel="stylesheet" type="text/css" href = "styles/teampage.css" />
-</head>
-
-<body>
-<h1>Welcome to my first webpage</h1>
-<img src="images/karington_watkins.jpg" alt="karington watkins" style="width:100px;height:100px;">
- 
-<p>Karington Watkins i am a student at BSU in the GIMM major. He has aspirations to become a leader in the technology field and plans to have future employment in Idaho. I also have extensive experience in Adobe Photoshop and Adobe Illustrator and has had in internship over at Infinity Signs North West.I like to make memes and various forms of multimedia.</p>
+		
+		<title>karington watkins Bio</title>
 	
-	<p><a href="index.html">Back to Main</a></p>
+	</head>
+	
+	<body>
+		
+		<div id="teamnav-placeholder"></div>
+		
+		<div clas="row">
+			<div class="col-sm-12">
+				<h1>Welcome to my karington bio webpage</h1>
+			</div>
+		</div>
+		
+		<div clas="row">
+			<div class="col-sm-12">
+				<img src="images/karington_watkins.jpg" alt="karington watkins" style="width:100px;height:100px;">
+			</div>
+		</div>
+		
+		<div clas="row">
+			<div class="col-sm-12">
+				<p>Karington Watkins i am a student at BSU in the GIMM major. He has aspirations to become a leader in the technology field and plans to have future employment in Idaho. I also have extensive experience in Adobe Photoshop and Adobe Illustrator and has had in internship over at Infinity Signs North West.I like to make memes and various forms of multimedia.</p>
+			</div>
+		</div>
+		
+		<div class="teamfooter" id="teamfooter-placeholder"></div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#teamnav-placeholder').load('shared/nav.html');
+				$('#teamfooter-placeholder').load('shared/footer.html')
+			});
+			
+			
+		</script>
 </body>
 </html>
