@@ -4,8 +4,9 @@ body{
 }
 .tBleh{
 	background-color:#A278FF;
-	
-	
+}
+.MarioPage{
+	background-color:#00CC66;
 }
 .pic{
 	display: block;
@@ -23,6 +24,12 @@ body{
 }
 .textind{
 	text-indent: 50px;
+}
+
+.teamfooter{
+	text-indent: 1em;
+	margin: 10px;
+	padding: 10px;
 }
 
 h1{

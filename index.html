@@ -1,44 +1,55 @@
 <!doctype html>
 <html>
 <head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<meta charset="utf-8">
-<title>Meme Dream Team</title>
-		<link rel="stylesheet" type="text/css" href = "styles/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href = "styles/teampage.css" />
 		
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">Meme Dream Team</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="Tessa's Bio.html">Tessa Aylworth</a></li>
-      <li><a href="MarioPage.html">Mario Townes</a></li>
-      <li><a href="Karington.html">Karington Watkins</a></li>
-    </ul>
-  </div>
-</nav>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- Jquery stuff -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<!-- Team Bootstrap stuff -->
+		<link rel="stylesheet" type="text/css" href = "styles/bootstrap.css" />
+		
+		<!-- Team CSS -->
+		<link rel="stylesheet" type="text/css" href = "styles/teampage.css" />
+<title>Meme Dream Team</title>
 
 </head>
 
 <body>
-<img src= "images/college humor meme.jpg" width="800" height="240" alt="Collection of College Memes"/>
-	<table width="800">
 		
+		<div id="teamnav-placeholder"></div>
 	
-		<tr>
-			<td><a href="Tessa's Bio.html">Tessa Aylworth</a></td>
-			<td><a href="MarioPage.html">Mario Townes</a></td>
-			<td><a href="Karington.html">Karington Watkins</a></td>
-		</tr>
-	</table>
-	<p>Welcome to the team page for the Meme Dream Team!  Click on any name to get a bio for that member of the team.</p>
+		<div class="row">
+			<div class="col-sm-12">
+				<img src= "images/college humor meme.jpg" width="800" height="240" alt="Collection of College Memes"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-11 col-sm-push-1">
+				<p>Welcome to the team page for the Meme Dream Team!  Click on any name to get a bio for that member of the team.</p>
+			</div>
+		</div>
+
+	
+		
+		<div class="teamfooter" id="teamfooter-placeholder"></div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#teamnav-placeholder').load('shared/nav.html');
+				$('#teamfooter-placeholder').load('shared/footer.html')
+			});
+			
+			
+		</script>
 </body>
 </html>
